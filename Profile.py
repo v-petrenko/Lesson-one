@@ -1,0 +1,5 @@
+print('МЕДЕЦИНСКАЯ АНКЕТА')
+petreson_name: (input('Введите свое имя: '))
+family: (input('Введите свою фамилию: '))
+age: int = int(input('Введите свой возраст: '))
+weight: int = int(input('Введите свой вес: '))
