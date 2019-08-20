@@ -7,13 +7,13 @@ if age <= 30 and 50 <= weight <= 120 :
     print(petreson_name, family, ',', age, 'год', ',', 'вес', weight, '- молодец, так держать!')
 elif age <= 30 and weight >= 120 :
     print(petreson_name, family, ',', age, 'год', ',', 'вес', weight, '- необходимо обратиться к врачу!')
-elif 30 <= age <= 39 and weight >= 50 :
+elif 30 <= age <= 39 and 50 <= weight <= 120 :
     print(petreson_name, family, ',', age, 'год', ',', 'вес', weight, '- молодец, так держать!')
 elif 30 <= age <= 39 and weight <= 50 :
     print(petreson_name, family, ',', age, 'год', ',', 'вес', weight, '- следует заняться йогой.')
 elif 30 <= age <= 39 and weight >= 120 :
     print(petreson_name, family, ',', age, 'год', ',', 'вес', weight, '- следует заняться йогой.')
-elif age >= 40 and weight >= 50 :
+elif age >= 40 and 50 <= weight <= 120 :
     print(petreson_name, family, ',', age, 'год', ',', 'вес', weight, '- молодец, так держать!')
 elif age >= 40 and weight <= 50 :
     print(petreson_name, family, ',', age, 'год', ',', 'вес', weight, '- необходимо обратиться к врачу!')
